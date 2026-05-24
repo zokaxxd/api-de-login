@@ -1,0 +1,10 @@
+[project]
+name = "python-api"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.136.1",
+    "passlib>=1.7.4",
+    "pydantic>=2.13.4",
+    "python-jose>=3.5.0",
+]

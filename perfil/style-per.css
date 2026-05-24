@@ -1,0 +1,57 @@
+body
+{
+    background-color: rgb(61, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+p
+{
+    font-size: 2.2vh;
+    color: rgb(184, 117, 117);
+    text-shadow: 2px 2px 2px rgb(139, 76, 76);
+    margin-bottom: 3vh;        
+    padding-top: 1vh; 
+}
+input
+{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    border: 0.2vh solid rgba(170, 0, 0, 0.808);
+    background: transparent;
+    border-radius: 0.5vh;
+    background: transparent;
+    width: 30vh;
+    height: 3vh;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.808);
+}
+button {
+    width: 30vh;
+    justify-self: center;
+    background-color: rgba(139, 0, 0, 0.8);
+    color: rgb(204, 149, 149);
+    border: 0.2vh solid rgba(170, 0, 0, 0.808);
+    border-radius: 0.5vh;
+    height: 4vh;
+    cursor: pointer;
+}
+.container
+{
+    background-color: rgba(0, 0, 0, 0.397);
+    backdrop-filter: blur(0.4vh);
+    width: 50vh;
+    height: 80vh;
+    display: grid;
+    border: 0.3vh solid rgba(170, 0, 0, 0.808);
+    border-radius: 1vh;
+    text-align: center;
+}
+.inf
+{
+    font-size: 5vh;
+    margin: 0;
+}

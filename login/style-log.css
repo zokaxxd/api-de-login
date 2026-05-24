@@ -1,0 +1,91 @@
+body
+{
+    background-color: rgb(61, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+
+
+}
+.container
+{
+    background-color: rgba(0, 0, 0, 0.397);
+    backdrop-filter: blur(0.4vh);
+    width: 50vh;
+    height: 60vh;
+    display: grid;
+    border: 0.3vh solid rgba(170, 0, 0, 0.808);
+    border-radius: 1vh;
+    text-align: center;
+    
+}
+.log
+{
+    color: rgb(204, 149, 149);
+    text-shadow: 2.3px 2.3px 2.3px rgb(139, 76, 76);
+}
+p
+{
+    color: rgb(184, 117, 117);
+    text-shadow: 2px 2px 2px rgb(139, 76, 76);
+    margin: 0;        
+    padding-top: 1vh; 
+}
+input
+{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    border: 0.2vh solid rgba(170, 0, 0, 0.808);
+    background: transparent;
+    border-radius: 0.5vh;
+    background: transparent;
+    width: 30vh;
+    height: 3vh;
+    color: rgba(255, 255, 255, 0.808);
+}
+button {
+    width: 30vh;
+    justify-self: center;
+    background-color: rgba(139, 0, 0, 0.8);
+    color: rgb(204, 149, 149);
+    border: 0.2vh solid rgba(170, 0, 0, 0.808);
+    border-radius: 0.5vh;
+    height: 4vh;
+    cursor: pointer;
+}
+.gma
+{
+    font-size: 2vh;
+    position: absolute;
+    top: 26.3%;
+    left: 20%;
+}
+.pass
+{
+    font-size: 2vh;
+    position: absolute;
+    top: 44.8%;
+    left: 20%;
+}
+.crt
+{
+    font-size: 2.2vh;
+    position : absolute;
+    top: 85%;
+    left: 44%;
+}
+
+.crt:hover{
+    cursor: pointer;
+    color: darkgray;
+}
+.log-btn:hover
+{
+    cursor: pointer;
+    color: rgba(139, 0, 0, 0.8);
+    background-color: rgb(204, 149, 149);
+}
